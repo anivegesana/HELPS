@@ -1,0 +1,14 @@
+docs_list_title: Purdue HELPS
+docs:
+
+- title: About
+  url: /
+
+- title: People
+  url: /people/
+
+- title: Projects
+  url: /projects/
+
+- title: Publications
+  url: /publications/
