@@ -23,8 +23,7 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% assign navigation = site.data.navigation %}
-      {% for button in navigation %}
+      {% for button in site.data.navigation.docs %}
         <a href="{{ button.url }}" class="btn">{{ button.title }}</a>
       {% endfor %}
     </header>
